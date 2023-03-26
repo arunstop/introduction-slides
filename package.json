@@ -1,14 +1,13 @@
 {
-  "name": "introduction-slides",
   "private": true,
   "scripts": {
+    "dev": "slidev",
     "build": "slidev build",
-    "dev": "slidev --open",
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.40.3",
-    "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
   }
 }
