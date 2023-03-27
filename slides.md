@@ -26,11 +26,19 @@ layout: cover
 background: https://cdn.britannica.com/36/79536-050-BE1C475B/human-lineage-hominins-members-lineages-apes-interpretations.jpg
 class : text-center
 ---
-
 # Homo Sapiens
 
 Most commons race of humans on Earth
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://cdn.britannica.com/36/79536-050-BE1C475B/human-lineage-hominins-members-lineages-apes-interpretations.jpg
+class : text-center
+---
+# Male
 
+XY
 ---
 theme: seriph
 transition: slide-left
@@ -221,11 +229,6 @@ const final = {
 [Learn More](https://sli.dev/guide/animations.html#motion)
 
 </div>
----
-src: ./pages/multiple-entries.md
-hide: false
----
-
 ---
 layout: center
 class: text-center
