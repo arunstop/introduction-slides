@@ -4,168 +4,147 @@ background: https://sli.dev/demo-cover.png
 transition: slide-left
 ---
 
-# Introduction of me, Arunseto
+# Introduction of Arunseto Pambudi
 
-Presentation Slides for Developers
+This is a very good keynote, if you have a bad taste.
 
 ---
+theme: seriph
 transition: slide-left
 layout: cover
 background: https://sli.dev/demo-cover.png
+class : text-center
 ---
 
-# Who am I?
+# What is it?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-transition: slide-up
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
----
-
-# Code
-
-Use code snippets and get the highlighting directly![^1]
-
-```ts {all|2|1-6|9|all}
-interface User {
-  id: number
-  firstName: string
-  lastName: string
-  role: string
-}
-
-function updateUser(id: number, update: User) {
-  const user = getUser(id)
-  const newUser = { ...user, ...update }
-  saveUser(id, newUser)
-}
-```
-
-<arrow v-click="3" x1="400" y1="420" x2="230" y2="330" color="#564" width="3" arrowSize="1" />
-
-[^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
-
-<style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
-</style>
-
----
-
-# Components
-
-<div grid="~ cols-2 gap-4">
-<div>
-
-You can use Vue components directly inside your slides.
-
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
-
-```html
-<Counter :count="10" />
-```
-
-<!-- ./components/Counter.vue -->
-<Counter :count="10" m="t-4" />
-
-Check out [the guides](https://sli.dev/builtin/components.html) for more.
-
-</div>
-<div>
-
-```html
-<Tweet id="1390115482657726468" />
-```
-
-<Tweet id="1390115482657726468" scale="0.65" />
-
-</div>
-</div>
-
-<!--
-Presenter note with **bold**, *italic*, and ~~striked~~ text.
-
-Also, HTML elements are valid:
-<div class="flex w-full">
-  <span style="flex-grow: 1;">Left content</span>
-  <span>Right content</span>
-</div>
--->
-
-
----
-class: px-20
----
-
-# Themes
-
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
-
-<div grid="~ cols-2 gap-2" m="-t-2">
-
-```yaml
----
-theme: default
----
-```
-
-```yaml
+The moniker Arunseto Pambudi can be defined as such :
 ---
 theme: seriph
+transition: slide-left
+layout: cover
+background: https://cdn.britannica.com/36/79536-050-BE1C475B/human-lineage-hominins-members-lineages-apes-interpretations.jpg
+class : text-center
 ---
-```
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-default/01.png?raw=true">
+# Homo Sapiens
 
-<img border="rounded" src="https://github.com/slidevjs/themes/blob/main/screenshots/theme-seriph/01.png?raw=true">
+Most commons race of humans on Earth
 
-</div>
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://cdn.britannica.com/71/145971-050-A850F4CB/Ruins-temple-Doric-Selinus-Sicily.jpg
+class : text-center
+---
 
-Read more about [How to use a theme](https://sli.dev/themes/use.html) and
-check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
+# 24 years old Creature
+
+Has been existing (thankfully) for 25 years on this Earth
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://media.tenor.com/2qcQO7l8f5AAAAAM/froggy-dance.gif
+class : text-center
+---
+
+# Hyperactive Creature
+
+Very active or sometimes abnormally active.
+
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://upload.wikimedia.org/wikipedia/commons/5/5a/Covid-19_spread_timeline_in_Indonesia.gif
+class : text-center
+---
+
+# Indonesian
+
+Biggest SEA country, SEA big bro.
+
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://media.tenor.com/ucrXwec7sfcAAAAC/fng-mutiny.gif
+class : text-center
+---
+
+# F. N. G.
+
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://media.tenor.com/rf88Pwf2KcsAAAAC/css-ie.gif
+class : text-center
+---
+
+# Frontend New Guy
+
+HTML + CSS + Javascript goes BRRRRRRRRRRRRRR
+
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://thumbs.gfycat.com/AnimatedDeficientAlleycat-size_restricted.gif
+class : text-center
+---
+
+# REASON TO EXIST
+
+Every creature that exist in this world, must have a reason to exist, right?
+
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://asset.kompas.com/crops/O3kKNUL06rj-5sU-mzhYwvJpcS4=/44x8:1000x645/750x500/data/photo/2019/12/18/5df9e59f4c8b0.jpg
+class : text-center
+---
+
+# Food
+
+Enjoying food = Enjoying life
+
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://thumbs.gfycat.com/IgnorantHarmfulChrysalis-small.gif
+class : text-center
+---
+
+# Ending Of One Piece
+
+Please pray to Oda's health.
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://64.media.tumblr.com/7784071b39cd25a817a543bc8c169f07/7bf7bb69801675b5-f5/s540x810/99ce3f9f3f29e0ec08e1f4311c5ef5dc03d8483f.gif
+class : text-center
+---
+
+# Dune Trilogy
+
+Let's hope they don't butcher this one.
+---
+theme: seriph
+transition: slide-left
+layout: cover
+background: https://64.media.tumblr.com/7784071b39cd25a817a543bc8c169f07/7bf7bb69801675b5-f5/s540x810/99ce3f9f3f29e0ec08e1f4311c5ef5dc03d8483f.gif
+class : text-center
+---
+
+# History
+
+Let's hope they don't butcher this one.
 
 ---
 preload: false
@@ -242,95 +221,6 @@ const final = {
 [Learn More](https://sli.dev/guide/animations.html#motion)
 
 </div>
-
----
-
-# LaTeX
-
-LaTeX is supported out-of-box powered by [KaTeX](https://katex.org/).
-
-<br>
-
-Inline $\sqrt{3x-1}+(1+x)^2$
-
-Block
-$$
-\begin{array}{c}
-
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &
-= \frac{4\pi}{c}\vec{\mathbf{j}}    \nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-
-\nabla \cdot \vec{\mathbf{B}} & = 0
-
-\end{array}
-$$
-
-<br>
-
-[Learn more](https://sli.dev/guide/syntax#latex)
-
----
-
-# Diagrams
-
-You can create diagrams / graphs from textual descriptions, directly in your Markdown.
-
-<div class="grid grid-cols-3 gap-10 pt-4 -mb-6">
-
-```mermaid {scale: 0.5}
-sequenceDiagram
-    Alice->John: Hello John, how are you?
-    Note over Alice,John: A typical interaction
-```
-
-```mermaid {theme: 'neutral', scale: 0.8}
-graph TD
-B[Text] --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-```plantuml {scale: 0.7}
-@startuml
-
-package "Some Group" {
-  HTTP - [First Component]
-  [Another Component]
-}
-
-node "Other Groups" {
-  FTP - [Second Component]
-  [First Component] --> FTP
-}
-
-cloud {
-  [Example 1]
-}
-
-
-database "MySql" {
-  folder "This is my folder" {
-    [Folder 3]
-  }
-  frame "Foo" {
-    [Frame 4]
-  }
-}
-
-
-[Another Component] --> [Example 1]
-[Example 1] --> [Folder 3]
-[Folder 3] --> [Frame 4]
-
-@enduml
-```
-
-</div>
-
-[Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
 ---
 src: ./pages/multiple-entries.md
 hide: false
@@ -341,6 +231,7 @@ layout: center
 class: text-center
 ---
 
-# Learn More
+# That's it...
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+<div>Made with Sli.dev</div>
+<a>https://sli.dev</a>
