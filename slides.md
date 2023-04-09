@@ -47,20 +47,9 @@ background: https://cdn.britannica.com/71/145971-050-A850F4CB/Ruins-temple-Doric
 class : text-center
 ---
 
-# 24 years old Creature
+# 25 years old Creature
 
 Has been existing (thankfully) for 25 years on this Earth
----
-theme: seriph
-transition: slide-left
-layout: cover
-background: https://media.tenor.com/2qcQO7l8f5AAAAAM/froggy-dance.gif
-class : text-center
----
-
-# Hyperactive Creature
-
-Very active or sometimes abnormally active.
 
 ---
 theme: seriph
@@ -146,11 +135,11 @@ Let's hope they don't butcher this one.
 theme: seriph
 transition: slide-left
 layout: cover
-background: https://64.media.tumblr.com/7784071b39cd25a817a543bc8c169f07/7bf7bb69801675b5-f5/s540x810/99ce3f9f3f29e0ec08e1f4311c5ef5dc03d8483f.gif
+background: https://gifdb.com/images/file/scared-dr-strange-falling-of-building-jpwmemgkl2viqo4i.gif
 class : text-center
 ---
 
-# History
+# How did I get here??
 
 Let's hope they don't butcher this one.
 
