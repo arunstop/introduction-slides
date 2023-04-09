@@ -12,7 +12,7 @@ This is a very good keynote, if you have a bad taste.
 theme: seriph
 transition: slide-left
 layout: cover
-background: https://sli.dev/demo-cover.png
+background: https://i.gifer.com/Cwgf.gif
 class : text-center
 ---
 
